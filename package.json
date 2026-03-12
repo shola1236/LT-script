@@ -1,6 +1,7 @@
 {
   "name": "trx-looter",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "postinstall": "npx playwright install chromium"
@@ -10,6 +11,7 @@
     "axios": "^1.6.0",
     "playwright": "^1.40.0",
     "playwright-extra": "^4.3.6",
-    "playwright-extra-plugin-stealth": "^2.11.0"
+    "playwright-extra-plugin-stealth": "^2.11.2",
+    "dotenv": "^16.3.1"
   }
 }
